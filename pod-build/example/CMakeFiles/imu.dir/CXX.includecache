@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ros/apriltags/example/Serial.cpp
+fcntl.h
+-
+termios.h
+-
+stdlib.h
+-
+iostream
+-
+sstream
+-
+unistd.h
+-
+Serial.h
+/home/ros/apriltags/example/Serial.h
+
+/home/ros/apriltags/example/Serial.h
+string
+-
+
+/home/ros/apriltags/example/imu.cpp
+iostream
+-
+string
+-
+stdio.h
+-
+math.h
+-
+Serial.h
+/home/ros/apriltags/example/Serial.h
+
